@@ -39,8 +39,7 @@ public class PassengerReq {
 	@Column(name = "QUAL",length = 4000)
 	private String qual;
 	
-@Column(name = "START_POINT",length = 4000)
-private String start_point;
+
 @Column(name = "FROM1",length = 4000)
 private String from;
 
@@ -66,19 +65,7 @@ public void setFrom(String from) {
 	/**
 	 * @return the start_point
 	 */
-	public String getStart_point() {
-		return start_point;
-	}
-	/**
-	 * @param start_point the start_point to set
-	 */
 	
-	public void setStart_point(String start_point) {
-		this.start_point = start_point;
-	}
-	/**
-	 * @return the qual
-	 */
 	public String getQual() {
 		return qual;
 	}
